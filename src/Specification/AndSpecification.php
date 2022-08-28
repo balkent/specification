@@ -23,7 +23,7 @@ class AndSpecification extends CompositeSpecification
     /**
      * if at least one specification is false, return false, else return true.
      */
-    public function isSatisfiedBy(object $item): bool
+    public function isSatisfiedBy($item): bool
     {
         foreach ($this->specifications as $specification) {
             if (!$specification->isSatisfiedBy($item)) {
