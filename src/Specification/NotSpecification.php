@@ -16,8 +16,8 @@ class NotSpecification extends CompositeSpecification
 		$this->specification = $specification;
 	}
 
-	public function isSatisfiedBy(SpecificationInterface $specificationItems): bool
+	public function isSatisfiedBy(object $item): bool
 	{
-        return !$this->specification->isSatisfiedBy($specificationItems);
+        return !$this->specification->isSatisfiedBy($item);
 	}
 }

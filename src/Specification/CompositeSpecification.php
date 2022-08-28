@@ -13,7 +13,7 @@ use Specification\SpecificationInterface;
  */
 abstract class CompositeSpecification implements SpecificationInterface
 {
-	abstract public function isSatisfiedBy(SpecificationInterface $candidate): bool;
+	abstract public function isSatisfiedBy(object $item): bool;
 
 	public function and(SpecificationInterface $specificationItem): SpecificationInterface
     {
