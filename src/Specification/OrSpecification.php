@@ -23,7 +23,7 @@ class OrSpecification extends CompositeSpecification
     /*
      * if at least one specification is true, return true, else return false
      */
-    public function isSatisfiedBy(object $item): bool
+    public function isSatisfiedBy($item): bool
     {
         foreach ($this->specifications as $specification) {
             if ($specification->isSatisfiedBy($item)) {
