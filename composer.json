@@ -14,7 +14,8 @@
     "autoload": {
         "psr-4": {
             "App\\": ".",
-            "Specification\\": "src/Specification"
+            "Specification\\": "src/Specification",
+            "Exemple\\": "src/Exemple"
         }
     }
 }
