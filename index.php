@@ -6,4 +6,6 @@ namespace App;
 
 require __DIR__ . '/vendor/autoload.php';
 
-echo "coucou";
+use Exemple\App;
+
+(new App())->run();
