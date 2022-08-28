@@ -1,0 +1,19 @@
+{
+    "name": "balkent/simple_project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "QuentinBALCEREK",
+            "email": "quentin.balcerek@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
